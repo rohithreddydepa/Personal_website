@@ -12,7 +12,7 @@ body{
   text-align: center;
 }
 .container-fluid{
-    text-align: center;
+    text-align: left;
 }
 .copywrite{
   margin-bottom: 0;
@@ -27,6 +27,8 @@ body{
 .footer-link{
   font-family: Ubuntu-dark;
   font-size: 1.3em;
+  font-weight:100;
+  color: black;
   text-decoration:none;
 }
 .footer-link:hover{
@@ -64,14 +66,17 @@ h2{
     font-size: 4rem;
    padding:12rem 0 0 0;
 }
+.navbar{
+  background-color:#d5e0e7;
+  padding: 0.5em;
+}
 .navbar-brand{
   font-family: Montserrat-bold;
   font-size: 2.2rem;
- margin-right: 0;
 }
-.navbar-nav{
-  font-family: Montserrat-bold;
-  font-size: 1.5rem;
+.nav-link{
+  font-family: Ubuntu-dark;
+  font-size: 1.3rem;
 }
 .pro{
   font-family: Ubuntu-dark;
